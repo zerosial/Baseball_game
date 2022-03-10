@@ -22,6 +22,16 @@ th {
   width: 90px;
   height: 40px;
 }
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.image-box img {
+  width: 150px;
+}
 
 img {
   display: block;

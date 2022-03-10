@@ -6,12 +6,56 @@ body {
 }
 
 h1 {
-  font-family: "Pacifico", cursive;
+  font-family: "Noto Sans Korean", cursive;
   text-align: center;
-  font-size: 72px;
+  font-size: 30px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th {
+  margin: auto;
+  border: 1px solid black;
+  width: 90px;
+  height: 40px;
 }
 
 img {
   display: block;
   margin: auto;
+}
+
+form {
+  margin: auto;
+  font-family: "Noto Sans Korean", cursive;
+  font-size: 30px;
+  width: 300px;
+  height: 200px;
+}
+
+.reload {
+  position: fixed;
+  bottom: 50px;
+  right: 300px;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background: #d80d0d;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
+}
+
+.reload:focus {
+  outline: 0;
+}
+
+.reload:hover {
+  background: rgb(218, 50, 20);
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(184, 58, 49, 0.6);
 }
